@@ -8,15 +8,6 @@ public class Customer {
     private String createdAt;
     private String country;
 
-    public Customer(String id, String firstName, String lastName, String company, String createdAt, String country) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.company = company;
-        this.createdAt = createdAt;
-        this.country = country;
-    }
-
     public String getId() {
         return id;
     }
