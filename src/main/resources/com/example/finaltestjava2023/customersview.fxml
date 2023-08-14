@@ -17,7 +17,7 @@
    <BorderPane prefHeight="523.0" prefWidth="847.0">
       <top>
       
-          <Label fx:id="titleLabel" text="Title" BorderPane.alignment="CENTER">
+          <Label fx:id="titleLabel" text="Simcoe AI lab" BorderPane.alignment="CENTER">
             <font>
                <Font name="System Bold" size="24.0" />
             </font>

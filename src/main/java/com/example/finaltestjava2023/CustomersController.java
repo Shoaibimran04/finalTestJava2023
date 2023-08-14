@@ -1,5 +1,10 @@
+//shoaib imran 200528971
+
+
 package com.example.finaltestjava2023;
 
+import com.example.finaltestjava2023.Customer;
+import com.example.finaltestjava2023.JsonParser;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -56,12 +61,11 @@ public class CustomersController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
     }
-    // ... (previous code)
 
     @FXML
     protected void onAllCustomersButtonClick() {
         try {
-            List<Customer> allCustomers = JsonParser.parseCustomersFromFile("path/to/your/json/file.json");
+            List<Customer> allCustomers = JsonParser.parseCustomersFromFile("src/main/resources/customers.json");
             tableViewCustomers.getItems().setAll(allCustomers);
             rowsInTableLabel.setText("Rows returned: " + allCustomers.size());
         } catch (IOException e) {
@@ -72,7 +76,7 @@ public class CustomersController implements Initializable {
     @FXML
     protected void onDomesticCustomersButtonClick() {
         try {
-            List<Customer> allCustomers = JsonParser.parseCustomersFromFile("path/to/your/json/file.json");
+            List<Customer> allCustomers = JsonParser.parseCustomersFromFile("src/main/resources/customers.json");
             List<Customer> domesticCustomers = new ArrayList<>();
             for (Customer customer : allCustomers) {
                 if ("Canada".equals(customer.getCountry())) {
