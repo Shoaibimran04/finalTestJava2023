@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb5abdbd-8bde-4ff8-ad3a-f830221ec2f4" name="Changes" comment="added api response,">
+    <list default="true" id="cb5abdbd-8bde-4ff8-ad3a-f830221ec2f4" name="Changes" comment="step 5 and 6 kinda done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finaltestjava2023/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finaltestjava2023/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finaltestjava2023/CustomersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finaltestjava2023/CustomersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/finaltestjava2023/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/finaltestjava2023/JsonParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/finaltestjava2023/customersview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/finaltestjava2023/customersview.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692052088782</updated>
-      <workItem from="1692052091622" duration="3698000" />
+      <workItem from="1692052091622" duration="5490000" />
     </task>
     <task id="LOCAL-00001" summary="Step one ( customer class )">
       <created>1692053491254</created>
@@ -96,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692054704902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="step 5 and 6 kinda done">
+      <created>1692055892215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692055892216</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +109,7 @@
     <MESSAGE value="final proj" />
     <MESSAGE value="Step one ( customer class )" />
     <MESSAGE value="added api response," />
-    <option name="LAST_COMMIT_MESSAGE" value="added api response," />
+    <MESSAGE value="step 5 and 6 kinda done" />
+    <option name="LAST_COMMIT_MESSAGE" value="step 5 and 6 kinda done" />
   </component>
 </project>
