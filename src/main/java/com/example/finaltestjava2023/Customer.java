@@ -2,9 +2,12 @@
 
 package com.example.finaltestjava2023;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Customer {
     private String id;
     private String firstName;
+    @SerializedName("last")
     private String lastName;
     private String company;
     private String createdAt;

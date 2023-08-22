@@ -12,6 +12,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.io.IOException;
 import java.net.URL;
@@ -67,6 +68,7 @@ public class CustomersController implements Initializable {
         try {
             List<Customer> allCustomers = JsonParser.parseCustomersFromFile("src/main/resources/customers.json");
             tableViewCustomers.getItems().setAll(allCustomers);
+            colLast.setCellValueFactory(new PropertyValueFactory<>("lastName"));
             rowsInTableLabel.setText("Rows returned: " + allCustomers.size());
         } catch (IOException e) {
             e.printStackTrace();
